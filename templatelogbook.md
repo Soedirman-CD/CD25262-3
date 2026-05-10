@@ -2,54 +2,55 @@
 
 Mata kuliah: Capstone Design
 
-Semester: Genap 2025/2026
+Semester: Gasal 2025/2026
 
 Anggota
 
-1. Mahasiswa: @gdysidik
-2. Mahasiswa: @dikaaditya486-cyber
-3. Mahasiswa: @aliyakp05
+1. Mahasiswa: @mahasiswa
+2. Mahasiswa @mahasiswa
 
-### 30 April 2026
-
-#### Yang sudah dilakukan
-
-- Pembelian sensor pzem004t.
-- Pembelian hilink 220 VAC-5 VDC converter.
-
-#### Masalah yang dihadapi
-
-- Belum ada.
-
-#### Yang akan dilakukan
-
-- [ ] Melengkapi pembelian barang. PIC: @aliyakp05
-
-#### Catatan
-
-- Belum ada :drooling_face:
-
-### 04 Mei 2026
+### 28 Okt 2025
 
 #### Yang sudah dilakukan
 
-- Melengkapi pembelian komponen baik online maupun offline.
+- Belum ada :sweat_smile:
 
 #### Masalah yang dihadapi
 
-- Ada beberapa barang yang ingin dicari offline tetapi ternyata tidak tersedia/habis.
-- Ada tambahan pembelian barang yaitu panel box.
+- Belum ada
 
 #### Yang akan dilakukan
 
-- [ ] Membeli panel box. PIC: @aliyakp05
-- [ ] Mencari kembali barang yang tidak tersedia ke toko lain. PIC: @dikaaditya486-cyber dan @gdysidik
+- [ ] Mendaftar apa saja yang akan dilakukan, PIC: @mahasiswa
 
 #### Catatan
 
-- Nothing :grimacing:
+- Perlu baca kembali dokumen desain
+- Lihat detil untuk masing-masing komponen desain
 
-<!-- ### 11 Nov 2025
+### 04 Nov 2025
+
+#### Yang sudah dilakukan
+
+- Memasang kabel USB ke mikrokontroler untuk cek deteksi perangkat
+- Mencari pustaka untuk mengambil gambar via webcam
+
+#### Masalah yang dihadapi
+
+- Kabel USB rusak
+- Program pengambil gambar tidak dapat dikompilasi
+
+#### Yang akan dilakukan
+
+- [ ] Membeli kabel USB di toko sebelah, PIC: @ahmad
+- [ ] Mencari solusi masalah kompilasi program pengambil gambar, PIC: @mahasiswa
+
+#### Catatan
+
+- Kabel USB 2.0, bukan 1.0
+- Mungkin masalah kompilasi adalah versi pustaka A lama
+
+### 11 Nov 2025
 
 #### Yang sudah dilakukan
 
@@ -110,4 +111,4 @@ Anggota
 
 #### Yang akan dilakukan
 
-#### Catatan -->
+#### Catatan
