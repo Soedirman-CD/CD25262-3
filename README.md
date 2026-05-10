@@ -12,6 +12,7 @@
 
 ### Project Description
 &nbsp;&nbsp;&nbsp;&nbsp;Pada Capstone Project ini kami mengangkat topik pemantauan konsumsi energi listrik pada rumah kos yang hanya menggunakan satu kWh meter untuk melayani beberapa kamar sekaligus. Masalah utama muncul pada mitra kami, Kost Pak Maryoto, di mana para penghuni sering mengeluhkan sistem pembayaran tagihan listrik yang dipukul rata. Ketidakadilan ini menjadi sumber konflik karena setiap penghuni memiliki pola penggunaan perangkat elektronik dan beban listrik yang berbeda-beda.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Sebagai solusi, Kumitika menghadirkan sebuah sistem cerdas yang dirancang untuk memonitor penggunaan energi listrik secara spesifik di setiap kamar. Dengan teknologi ini, sistem mampu mencatat konsumsi energi secara akurat dan memberikan estimasi biaya yang harus dibayarkan oleh masing-masing penghuni berdasarkan penggunaan riil mereka. Inovasi ini tidak hanya mempermudah manajemen keuangan bagi pemilik kos, tetapi juga menciptakan sistem pembagian tagihan yang jauh lebih transparan dan adil bagi seluruh penyewa.
 
 ### System Requirements
