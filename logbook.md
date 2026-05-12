@@ -1,4 +1,4 @@
-## Logbook Kelompok X
+## Logbook Kelompok 3
 
 Mata kuliah: Capstone Design
 
@@ -149,4 +149,4 @@ Anggota
 
 #### Yang akan dilakukan
 
-#### Catatan --> -->
+#### Catatan -->
