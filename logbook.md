@@ -66,6 +66,25 @@ Anggota
 
 #### Catatan
 
+### 8 Mei 2026
+
+### Yang sudah dilakukan
+
+- Merencanakan placement.
+
+### Masalah yang dihadapi
+
+- masih belum menemukan placement yang sesuai dengan ukuran panel box.
+
+#### Yang akan dilakukan
+
+- [ ] menentukan placement yang sesuai dengan ukuran panel box.
+- [ ] membeli MCB dan skun.
+
+#### Catatan
+
+
+
 - Nothing :grimacing:
 
 <!-- ### 11 Nov 2025
