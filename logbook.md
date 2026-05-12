@@ -49,6 +49,25 @@ Anggota
 
 - Nothing :grimacing:
 
+### 6 Mei 2026
+
+#### Yang sudah dilakukan
+
+- Membeli panel box.
+
+### Masalah yang dihadapi
+
+- Ukuran panel box yang sesuai cukup sulit ditemui.
+
+#### Yang akan dilakukan
+
+- [ ] Membeli lcd i2c. PIC: @aliyakp05
+- [ ] Mencari kembali barang yang tidak tersedia ke toko lain. PIC: @dikaaditya486-cyber dan @gdysidik
+
+#### Catatan
+
+- Nothing :grimacing:
+
 <!-- ### 11 Nov 2025
 
 #### Yang sudah dilakukan
