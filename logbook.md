@@ -105,11 +105,52 @@ Anggota
 #### Yang akan dilakukan
 
 - [ ] Menyesuaikan ukuran PCB daya dengan memotong bagian sisa semaksimal mungkin. PIC: @gdysidik
-- [ ] _Wiring_ komponen untuk pengujian. PIC: @all
+- [x] _Wiring_ komponen untuk pengujian. PIC: @all
 
 #### Catatan
 
 - PCB kontrol juga sisa banyak, tapi _space_-nya bisa digunakan untuk tempat _current transformer_.
+
+### 11 Mei 2026
+
+#### Yang sudah dilakukan
+
+- Membuat dashboard monitoring 
+
+#### Masalah yang dihadapi
+
+- Masih belom mengetahui batas limit database
+
+#### Yang akan dilakukan
+
+- [ ] Menyempurnakan dashboard agar sesuai dengan dashboard monitoring. PIC: @dikaaditya486-cyber
+- [ ] Pengujian dashboard. PIC : @all
+
+#### Catatan
+
+- Nothing :grimacing:
+
+### 12 Mei 2026
+
+#### Yang sudah dilakukan
+
+- wiring komponen untuk pengujian sensor
+
+#### Masalah yang dihadapi
+
+- Konektor AC gosong
+- sensor tidak menerima command dari ESP32 ketika menggunakan input daya terpisah/beda sumber
+
+#### Yang akan dilakukan
+
+- [ ] Pengujian Sensor PZEM. PIC : @all
+- [ ] Mengatur ulang rangkaian daya ESP32 dan komunikasi sensor lewat satu jalur (laptop) agar serial monitor terpantau
+- [ ] Wiring bagian beban agar sensor bisa melakukan metering
+
+#### Catatan
+
+- selalu pastikan mengecek dulu biar semua aman 
+
 
 <!-- ### 18 Nov 2025
 
