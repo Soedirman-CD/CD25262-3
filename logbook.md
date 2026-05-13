@@ -134,35 +134,55 @@ Anggota
 
 #### Yang sudah dilakukan
 
-- wiring komponen untuk pengujian sensor
+- _Wiring_ komponen untuk pengujian sensor.
 
 #### Masalah yang dihadapi
 
-- Konektor AC gosong
-- sensor tidak menerima command dari ESP32 ketika menggunakan input daya terpisah/beda sumber
+- Konektor AC gosong :sweat_smile: :upside_down_face:.
+- Sensor tidak menerima command dari ESP32 ketika menggunakan input daya terpisah/beda sumber.
 
 #### Yang akan dilakukan
 
 - [ ] Pengujian Sensor PZEM. PIC : @all
-- [ ] Mengatur ulang rangkaian daya ESP32 dan komunikasi sensor lewat satu jalur (laptop) agar serial monitor terpantau
-- [ ] Wiring bagian beban agar sensor bisa melakukan metering
+- [ ] Mengatur ulang rangkaian daya ESP32 dan komunikasi sensor lewat satu jalur (laptop) agar serial monitor terpantau.
+- [ ] _Wiring_ bagian beban agar sensor bisa melakukan metering.
 
 #### Catatan
 
-- selalu pastikan mengecek dulu biar semua aman 
+- Selalu pastikan mengecek dulu biar semua aman :ghost:.
 
 
-<!-- ### 18 Nov 2025
+### 13 Mei 2026
 
 #### Yang sudah dilakukan
 
+- _Wiring_ bagian beban.
+- Mengatur ulang rangkaian daya ESP32 dan komunikasi sensor lewat satu jalur (laptop) agar serial monitor terpantau.
+- Menguji sensor PZEM-004T.
+
 #### Masalah yang dihadapi
+
+- Kabel bagian beban sedikit kurang terancang dengan baik sehingga _current transformer_ sulit terinstal.
 
 #### Yang akan dilakukan
 
+- [ ] Rekonstruksi _wiring_ bagian beban.
+- [ ] Mulai _wiring_ komponen yang disesuaikan dengan panel box.
+
 #### Catatan
 
-### 25 Nov 2025
+- Pengujian sensor berhasil dengan hasil sebagai berikut:
+
+|               BEBAN              | TEGANGAN TERUKUR (V) | ARUS TERUKUR (A) | DAYA TERUKUR (W) |
+|:---------------------------------|---------------------:|-----------------:|-----------------:|
+| Charger 10 Wdc                   | 236.6                | 0.04             | 4.8              |
+| Charger 10 Wdc + Charger 45 Wdc  | 235.3                | 0.34             | 45.6             |
+| Solder                           | 236.5                | 0.13             | 31.1             |
+
+Lampiran output pengujian:
+![output testPZEM_1](output_testPZEM_1.png)
+
+<!-- ### 25 Nov 2025
 
 #### Yang sudah dilakukan
 
@@ -190,4 +210,4 @@ Anggota
 
 #### Yang akan dilakukan
 
-#### Catatan -->
+#### Catatan --> -->
