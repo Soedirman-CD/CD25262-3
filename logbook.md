@@ -143,9 +143,9 @@ Anggota
 
 #### Yang akan dilakukan
 
-- [ ] Pengujian Sensor PZEM. PIC : @all
-- [ ] Mengatur ulang rangkaian daya ESP32 dan komunikasi sensor lewat satu jalur (laptop) agar serial monitor terpantau.
-- [ ] _Wiring_ bagian beban agar sensor bisa melakukan metering.
+- [x] Pengujian Sensor PZEM. PIC : @all
+- [x] Mengatur ulang rangkaian daya ESP32 dan komunikasi sensor lewat satu jalur (laptop) agar serial monitor terpantau.
+- [x] _Wiring_ bagian beban agar sensor bisa melakukan metering.
 
 #### Catatan
 
