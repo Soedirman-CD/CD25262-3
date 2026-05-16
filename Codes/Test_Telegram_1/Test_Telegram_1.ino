@@ -3,8 +3,8 @@
 #include <UniversalTelegramBot.h>
 #include <ArduinoJson.h>
 
-#define bot_token "8678090964:AAE-TiKW0U8LzDYC6BBiHDVZSRkd9lnl4AY"
-#define acc_id "7420580424"
+#define bot_token ""
+#define acc_id ""
 
 
 WiFiClientSecure client_kumi;
