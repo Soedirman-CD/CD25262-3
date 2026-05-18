@@ -182,6 +182,27 @@ Anggota
 Lampiran output pengujian:
 ![output testPZEM_1](output_testPZEM_1.png)
 
+### 15 Mei 2026
+
+#### Yang sudah dilakukan
+
+- Membuat bot testing di telegram untuk terima notifikasi.
+- Coba koneksi esp32 dengan bot telegram yang telah dibuat.
+
+#### Masalah yang dihadapi
+
+- 
+
+#### Yang akan dilakukan
+
+- Membuat bot telegram yang akan digunakan pada sistem.
+- Merancang kerangka program seluruh sistem.
+
+### Catatan 
+
+- Testing awal berhasil, bot telegram dapat memunculkan pesan sesuai program di Arduino IDE
+
+
 <!-- ### 25 Nov 2025
 
 #### Yang sudah dilakukan
