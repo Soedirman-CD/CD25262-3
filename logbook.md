@@ -23,8 +23,8 @@ Anggota
 
 #### Yang akan dilakukan
 
-- [ ] Melengkapi pembelian barang. PIC: @aliyakp05
-- [ ] Merancang program pengujian sensor. PIC: @gdysidik
+- [x] Melengkapi pembelian barang. PIC: @aliyakp05
+- [x] Merancang program pengujian sensor. PIC: @gdysidik
 
 #### Catatan
 
@@ -46,7 +46,7 @@ Anggota
 #### Yang akan dilakukan
 
 - [x] Membeli panel box. PIC: @aliyakp05
-- [ ] Mencari kembali barang yang tidak tersedia ke toko lain. PIC: @dikaaditya486-cyber dan @gdysidik
+- [x] Mencari kembali barang yang tidak tersedia ke toko lain. PIC: @dikaaditya486-cyber dan @gdysidik
 
 #### Catatan
 
@@ -64,8 +64,8 @@ Anggota
 
 #### Yang akan dilakukan
 
-- [ ] Membeli lcd i2c. PIC: @aliyakp05
-- [ ] Mencari kembali barang yang tidak tersedia ke toko lain. PIC: @dikaaditya486-cyber dan @gdysidik
+- [x] Membeli lcd i2c. PIC: @aliyakp05
+- [x] Mencari kembali barang yang tidak tersedia ke toko lain. PIC: @dikaaditya486-cyber dan @gdysidik
 
 #### Catatan
 
@@ -83,7 +83,7 @@ Anggota
 
 #### Yang akan dilakukan
 
-- [ ] Menentukan placement yang sesuai dengan ukuran panel box. PIC: @all
+- [x] Menentukan placement yang sesuai dengan ukuran panel box. PIC: @all
 - [x] Membeli MCB dan skun. PIC: @dikaaditya486-cyber
 
 #### Catatan
@@ -104,7 +104,7 @@ Anggota
 
 #### Yang akan dilakukan
 
-- [ ] Menyesuaikan ukuran PCB daya dengan memotong bagian sisa semaksimal mungkin. PIC: @gdysidik
+- [x] Menyesuaikan ukuran PCB daya dengan memotong bagian sisa semaksimal mungkin. PIC: @gdysidik
 - [x] _Wiring_ komponen untuk pengujian. PIC: @all
 
 #### Catatan
@@ -166,8 +166,8 @@ Anggota
 
 #### Yang akan dilakukan
 
-- [ ] Rekonstruksi _wiring_ bagian beban.
-- [ ] Mulai _wiring_ komponen yang disesuaikan dengan panel box.
+- [x] Rekonstruksi _wiring_ bagian beban.
+- [x] Mulai _wiring_ komponen yang disesuaikan dengan panel box.
 
 #### Catatan
 
@@ -191,16 +191,39 @@ Lampiran output pengujian:
 
 #### Masalah yang dihadapi
 
-- 
+- Nothing :pray:
 
 #### Yang akan dilakukan
 
-- Membuat bot telegram yang akan digunakan pada sistem.
-- Merancang kerangka program seluruh sistem.
+- [x] Membuat bot telegram yang akan digunakan pada sistem.
+- [x] Merancang kerangka program seluruh sistem.
 
 ### Catatan 
 
 - Testing awal berhasil, bot telegram dapat memunculkan pesan sesuai program di Arduino IDE
+
+### 21 Mei 2026
+
+#### Yang sudah dilakukan
+
+- Rekonstruksi _wiring_ bagian beban.
+- _wiring_ komponen yang disesuaikan dengan panel box.
+- Membuat bot telegram yang akan digunakan pada sistem.
+- Merancang kerangka program seluruh sistem.
+
+#### Masalah yang dihadapi
+
+- Nothing :pray:
+
+#### Yang akan dilakukan
+
+- [ ] - Mencoba mengirim data notifikasi dari esp32 ke bot telegram dan sebaliknya.
+- [ ]Mencoba LCD I2C sebagai display lokal.
+- [ ]Melakukan perombakan panel box sehingga penggunaannya sesuai dengan kebutuhan sistem.
+
+### Catatan 
+
+- Nothing :smiley:
 
 
 <!-- ### 25 Nov 2025
