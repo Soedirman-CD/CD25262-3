@@ -217,7 +217,7 @@ Lampiran output pengujian:
 
 #### Yang akan dilakukan
 
-- [ ] - Mencoba mengirim data notifikasi dari esp32 ke bot telegram dan sebaliknya.
+- [ ]Mencoba mengirim data notifikasi dari esp32 ke bot telegram dan sebaliknya.
 - [ ]Mencoba LCD I2C sebagai display lokal.
 - [ ]Melakukan perombakan panel box sehingga penggunaannya sesuai dengan kebutuhan sistem.
 
