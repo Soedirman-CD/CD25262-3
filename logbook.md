@@ -241,7 +241,7 @@ Lampiran output pengujian:
 - Sempat terdapat bug saat pengujian komunikasi ke Telegram di mana pesan hasil _request_ muncul secara terus-menerus.
 - Sempat gagal saat implementasi ID-REQ.004 karena LCD digunakan pada _header_ lain (konfig_network.h) dalam program sebelum diinisialisasi.
 
-<!-- #### Yang akan dilakukan
+#### Yang akan dilakukan
 
 - [ ] Membuat dan menguji _dashboard_ sesuai dengan ID-REQ.005.
 - [ ] Membuat dan menguji _data logging_ sesuai dengan ID-REQ.006.
@@ -251,9 +251,9 @@ Lampiran output pengujian:
 
 - Implementasi ID-REQ.001 terbaca dengan cukup baik. Pembacaan tegangan di alat ukur sebesar 220 V, sedangkan sensor membaca 222 V. Pembacaan arus di alat ukur sebesar 0.086 A, sedangkan sensor membaca 0.094 A.
 - Data notifikasi di telegram sesuai dengan pembacaan yang ditampilkan pada LCD.
-- Menambahkan _command_ untuk mengubah _threshold_ daya dan harga, mengubah harga per kWh, dan reset total energi (kWh).
+- Menambahkan _command_ untuk mengubah _threshold_ daya dan harga, mengubah harga per kWh, dan reset total energi (kWh). 
 
-### 02 Des 2025
+<!-- ### 02 Des 2025
 
 #### Yang sudah dilakukan
 
@@ -271,4 +271,4 @@ Lampiran output pengujian:
 
 #### Yang akan dilakukan
 
-#### Catatan --> -->
+#### Catatan -->
