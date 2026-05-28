@@ -217,24 +217,41 @@ Lampiran output pengujian:
 
 #### Yang akan dilakukan
 
-- [ ]Mencoba mengirim data notifikasi dari esp32 ke bot telegram dan sebaliknya.
-- [ ]Mencoba LCD I2C sebagai display lokal.
-- [ ]Melakukan perombakan panel box sehingga penggunaannya sesuai dengan kebutuhan sistem.
+- [x] Mencoba mengirim data notifikasi dari esp32 ke bot telegram dan sebaliknya.
+- [x] Mencoba LCD I2C sebagai display lokal.
+- [x] Melakukan perombakan panel box sehingga penggunaannya sesuai dengan kebutuhan sistem.
 
 ### Catatan 
 
 - Nothing :smiley:
 
 
-<!-- ### 25 Nov 2025
+### 26 Mei 2026
 
 #### Yang sudah dilakukan
 
+- Inspeksi _wiring_ sistem untuk menjaga keamanan komponen dan pengguna.
+- Melakukan _unit testing_ pada sensor sesuai ID-REQ.001 (baca data tegangan, arus, daya, energi). Implementasinya adalah dengan menghubungkan dua bagian utama sensor, yakni bagian _metering_ dan bagian komunikasi data. Terdapat 2 bagian _metering_ pada sensor yakni menghubungkan fasa dan netral secara paralel ke bagian _metering_ tegangan sensor, serta menghubungkan CT pada bagian _metering_ arus sensor. Jalur fasa yang menuju beban kemudian dilewatkan ke dalam celah yang terdapat pada CT sehingga arus dapat terbaca. Sementara pada bagian komunikasi data, pin RX sensor dihubungkan ke pin TX2 ESP32 dan pin TX sensor dihubungkan dengan pin RX2 ESP32, serta dua pin daya +5 Vdc dan GND.
+- Melakukan _system testing_ sesuai ID-REQ.002 (estimasi biaya berdasarkan penggunaan energi). Implementasinya adalah dengan mengambil data energi (kWh) dari sensor, kemudian mengalikannya dengan data harga per kWh yang diketahui, dalam hal ini yang digunakan adalah harga _dummy_ per kWh sebesar Rp1000.
+- Melakukan _system testing_ sesuai ID-REQ.003 (kirim notifikasi ke Telegram saat melebihi nilai _threshold_). Implementasinya adalah dengan menentukan nilai _default_ ambang batas daya dan harga, dalam hal ini digunakan nilai _default_ batas daya 800 W dan batas harga Rp50000. Saat pengujian, nilai batas daya dan harga diset lebih rendah agar notifikasi lebih mudah di-_trigger_. Data yang dikirim ke Telegram menggunakan bantuan pustaka UniversalTelegramBot, ArduinoJson, dan WiFiClientSecure.
+- Melakukan _system testing_ sesuai ID-REQ.004 (menampilkan data pada LCD 16x2 I2C). Implementasinya adalah dengan menghubungkan dua jalur komunikasi I2C yakni SDA LCD ke SDA ESP32 (D21) dan SCL LCD ke SCL ESP32 (D22), serta dua pin daya +5 Vdc dan GND. Data sensor yang terbaca kemudian dikirim ke LCD dengan bantuan pustaka LiquidCrystal_I2C.
+
 #### Masalah yang dihadapi
 
-#### Yang akan dilakukan
+- Sempat terdapat bug saat pengujian komunikasi ke Telegram di mana pesan hasil _request_ muncul secara terus-menerus.
+- Sempat gagal saat implementasi ID-REQ.004 karena LCD digunakan pada _header_ lain (konfig_network.h) dalam program sebelum diinisialisasi.
+
+<!-- #### Yang akan dilakukan
+
+- [ ] Membuat dan menguji _dashboard_ sesuai dengan ID-REQ.005.
+- [ ] Membuat dan menguji _data logging_ sesuai dengan ID-REQ.006.
+- [ ] Kalibrasi/penyesuaian pengolahan data sensor supaya lebih akurat.
 
 #### Catatan
+
+- Implementasi ID-REQ.001 terbaca dengan cukup baik. Pembacaan tegangan di alat ukur sebesar 220 V, sedangkan sensor membaca 222 V. Pembacaan arus di alat ukur sebesar 0.086 A, sedangkan sensor membaca 0.094 A.
+- Data notifikasi di telegram sesuai dengan pembacaan yang ditampilkan pada LCD.
+- Menambahkan _command_ untuk mengubah _threshold_ daya dan harga, mengubah harga per kWh, dan reset total energi (kWh).
 
 ### 02 Des 2025
 
