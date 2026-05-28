@@ -2,6 +2,8 @@
 
 ### KELOMPOK 3 - KUMITIKA
 
+![Kumitika Logo](logo_kumitika.png)
+
 ### Members
 1. Gunady Sidik - H1A023004
 2. Dika Aditya Saputra - H1A023088
