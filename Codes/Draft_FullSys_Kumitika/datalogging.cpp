@@ -2,7 +2,7 @@
 
 WiFiClientSecure client_log;
 
-const char* serverName = "https://script.google.com/macros/s/AKfycbw02Yl6gkAmaH5w5c_f-aSFeIhrr_uub08SwIAzRyxR/dev";
+const char* serverName = "url";
 
 void set_log() {
   client_log.setInsecure();
