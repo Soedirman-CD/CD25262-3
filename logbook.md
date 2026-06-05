@@ -258,7 +258,7 @@ Lampiran output pengujian:
 
 #### Yang sudah dilakukan
 
-- Melakukan pengujian _data logging_ dengan waktu interval dua menit.
+- Melakukan pengujian _data logging_ dengan waktu interval dua menit selama 30 menit.
 
 #### Masalah yang dihadapi
 
@@ -272,6 +272,22 @@ Lampiran output pengujian:
 #### Catatan
 
 - Latensi _data logging_ berkisar ± 1–4 detik dari data terakhir yang diinput.
+
+### 4 Juni 2026
+
+### Yang sudah dilakukan
+
+- Membuat 3D desain untuk meletakkan fitting lampu, saklar lampu, dan membuat frame untuk lcd
+- Mencetak 3D print
+- Melakukan pengujian sistem secara keseluruhan selama beberapa menit
+
+### Masalah yang dihadapi
+- Nothing
+
+### Yang akan di lakukan
+- [ ] Memasang 3D print 
+- [ ] Wiring Lampu dan saklar
+- [ ] Memasang seluruh perangkat sistem pada papan mdf
 
 <!-- ### 09 Des 2025
 
