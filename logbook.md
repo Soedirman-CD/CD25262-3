@@ -210,6 +210,7 @@ Lampiran output pengujian:
 - _wiring_ komponen yang disesuaikan dengan panel box.
 - Membuat bot telegram yang akan digunakan pada sistem.
 - Merancang kerangka program seluruh sistem.
+- Membuat sheet khusus data logging pada Google Sheets.
 
 #### Masalah yang dihadapi
 
@@ -243,8 +244,8 @@ Lampiran output pengujian:
 
 #### Yang akan dilakukan
 
-- [ ] Membuat dan menguji _dashboard_ sesuai dengan ID-REQ.005.
-- [ ] Membuat dan menguji _data logging_ sesuai dengan ID-REQ.006.
+- [ ] Menguji _dashboard_ sesuai dengan ID-REQ.005.
+- [ ] Menguji _data logging_ sesuai dengan ID-REQ.006.
 - [ ] Kalibrasi/penyesuaian pengolahan data sensor supaya lebih akurat.
 
 #### Catatan
@@ -253,17 +254,26 @@ Lampiran output pengujian:
 - Data notifikasi di telegram sesuai dengan pembacaan yang ditampilkan pada LCD.
 - Menambahkan _command_ untuk mengubah _threshold_ daya dan harga, mengubah harga per kWh, dan reset total energi (kWh). 
 
-<!-- ### 02 Des 2025
+### 2 Juni 2025
 
 #### Yang sudah dilakukan
 
+- Melakukan pengujian _data logging_ dengan waktu interval dua menit.
+
 #### Masalah yang dihadapi
 
+- Nilai energi yang terkirim hanya memiliki ketelitian dua digit di belakang koma, seharusnya tiga digit.
+
 #### Yang akan dilakukan
+
+- [ ] Memperbaiki masalah _data logging_ di parameter energi.
+- [ ] Menyusun desain fiks pada papan untuk expo
 
 #### Catatan
 
-### 09 Des 2025
+- Latensi _data logging_ berkisar ± 1–4 detik dari data terakhir yang diinput.
+
+<!-- ### 09 Des 2025
 
 #### Yang sudah dilakukan
 
@@ -271,4 +281,4 @@ Lampiran output pengujian:
 
 #### Yang akan dilakukan
 
-#### Catatan -->
+#### Catatan --> -->
